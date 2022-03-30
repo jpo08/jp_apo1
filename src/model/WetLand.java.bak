@@ -1,0 +1,76 @@
+ package model;
+
+public class RWetLand {
+
+	private String name;
+	private String ubication;
+	private String type;
+	private int size;
+	private String image;
+	private String protectedWet
+
+	public RWetLand(String name, String ubication, String type, int size, String image, String protectedWet) {
+		super();
+		this.name = name;
+		this.ubication = ubication;
+		this.type = type;
+		this.size = size;
+		this.image = image;
+		this.protectedWet = protectedWet;
+
+	}
+
+	public String getName() {
+		return name;
+	}
+
+	public void setName(String name) {
+		this.name = name;
+	}
+
+	public String getUbication() {
+		return ubication;
+	}
+
+	public void setUbication(String ubication) {
+		this.ubication = ubication;
+	}
+
+	public String getType() {
+		return type;
+	}
+
+	public void setType(String type) {
+		this.Type = Type;
+	}
+
+	public int getSize() {
+		return size;
+	}
+
+	public void setSize(int size) {
+		this.size= size;
+	}
+	
+	public String getImage() {
+		return image;
+	}
+
+	public void setImage(String image) {
+		this.image = image;
+	}
+	
+	public String getProtectedWet () {
+		return protectedWet;
+	}
+
+	public void setProtectedWet(String protectedWet) {
+		this.protectedWet = protectedWet;
+	}
+
+	@Override
+	public String toString() {
+		return "Wetland info:\nName: " + name + "\nUbication: " + ubication + "\nType" + type + "\nSize km: " + size + "\nImage: "+ image + "\nProtected: ";+ protectedWet;
+	}
+
+}
